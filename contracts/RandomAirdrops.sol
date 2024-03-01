@@ -20,7 +20,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 //comments on functions
 
-contract randomAirdrops is VRFConsumerBaseV2 {
+contract RandomAirdrops is VRFConsumerBaseV2 {
     event RequestSent(uint256 requestId, uint32 numWords);
     event RequestFulfilled(uint256 requestId, uint256[] randomWords);
 
